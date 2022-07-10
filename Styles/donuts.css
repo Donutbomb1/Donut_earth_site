@@ -19,11 +19,13 @@ header{
         grid-area:2/1/2/7;
         text-align: center;
         text-decoration: none;
+        border-radius:15px;
     }
 .logo{
     max-width:150px;
     max-height:150px;
     grid-area:1/1/1/1;
+    border-radius:30px;
 }
 main{
     display:grid;
@@ -83,6 +85,38 @@ p{
     grid-area:8/2/8/4;
     width:600px;
     height:400px;
+}
+.head{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    display:inline-block;
+    text-align: center;
+    align-content:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width:10%;
+    max-height:90%;
+    min-width:300px;
+    text-decoration:bold;
+}
+input[type=text] ,select,textarea{
+    background-color:rgb(0, 255, 106);
+    border: 3px solid rgb(0, 0, 0);
+    color:rgb(51, 51, 51);
+    border-radius:10px;
+    min-height:30px;
+    min-width:300px;
+}
+input[type = text]:hover{
+    background-color:aqua;
+}
+input[type = submit]{
+    background-color:rgb(0,255,106);
+    font-size:20px;
+    min-height:30px;
+}
+input[type = submit]:hover{
+    background-color:aqua;
 }
 footer{
 background-color:rgb(14,210,21)
