@@ -118,6 +118,15 @@ input[type = submit]{
 input[type = submit]:hover{
     background-color:aqua;
 }
+.join{
+    align-items:center;
+    justify-self:center;
+    min-width:100%;
+    min-height:100px;
+    font-size:50px;
+    background-color:rgb(0,255,106);
+    border-radius:5px;
+}
 footer{
 background-color:rgb(14,210,21)
 }
